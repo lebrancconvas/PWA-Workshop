@@ -1,0 +1,26 @@
+{
+  "short_name": "BNK48 Gallery",
+  "name": "BNK48 Unofficial Gallery",
+  "icons": [
+    {
+      "src": "assets/images/tarwann02.gif",
+      "sizes": "96x96",
+      "type": "image/gif"
+    },
+    {
+      "src": "assets/images/tarwann02.gif",
+      "sizes": "144x144",
+      "type": "image/gif"
+    },
+    {
+      "src": "assets/images/tarwann02.gif",
+      "sizes": "192x192",
+      "type": "image/gif"
+    }
+  ],
+  "start_url": "/index.html",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "blue",
+  "prefer_related_applications": false
+}
