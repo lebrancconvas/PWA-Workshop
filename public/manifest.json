@@ -16,11 +16,18 @@
       "src": "assets/images/tarwann02.gif",
       "sizes": "192x192",
       "type": "image/gif"
+    },
+    {
+      "src": "assets/images/tarwann02.gif",
+      "sizes": "512x512",
+      "type": "image/gif"
     }
+
   ],
   "start_url": "/index.html",
   "display": "standalone",
   "orientation": "portrait",
+  "theme_color": "Pink",
   "background_color": "blue",
   "prefer_related_applications": false
 }
