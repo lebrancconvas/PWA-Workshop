@@ -11,13 +11,17 @@
   <meta name="theme-color" content="#008000">
 </head>
 <body>
+  <noscript>
+    This Browser can't support Javascript.
+  </noscript>
   <img src="assets/images/cherprang.jpg" alt="Cherprang BNK48">
-  <script type="text/text/javascript">
-  if('serviceWorker' in navigator){
-    navigator.serviceWorker.register('assets/js/sw.js')
-    .then(function() {console.log('Service Worker Registered');
-  });
-}
-</script>
+  <script type="text/javascript">
+      if('serviceWorker' in navigator){
+        navigator.serviceWorker.register('assets/js/sw.js')
+        .then(function(){
+          console.log('Service Worker Registered');
+      });
+    }
+  </script>
 </body>
 </html>

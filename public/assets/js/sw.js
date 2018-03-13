@@ -4,8 +4,10 @@ self.addEventListener('install', function(e){
       return cache.addAll([
         'index.html',
         'assets/css/style.css',
-        'assets/images/aitakatta.jpg',
-        'assets/images/gallerylogo.png',
+        'assets/images/cherprang.jpg',
+        'assets/images/music.jpg',
+        'assets/images/satchan.jpg',
+        'assets/images/sport.jpg',
         'assets/images/tarwann02.gif'
       ]);
     })

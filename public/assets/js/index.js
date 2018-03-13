@@ -9,4 +9,4 @@ function randomValueFromArray(array){
 setInterval(function(){
   let randomChoice = randomValueFromArray(images);
   imgElem.src = 'assets/' + 'images/' + randomChoice + '.jpg';
-},2000)
+},1000)
